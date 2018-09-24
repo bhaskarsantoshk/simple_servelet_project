@@ -22,7 +22,8 @@ public class SimpleServelet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Hello from GET method. ");
 		PrintWriter writer = response.getWriter();
-		writer.println("<h1> Hello in html </h1>");
+		//writer.println("<h1> Hello in html </h1>");
+		writer.println("Hello from Servelet GET method -on the web page");
 	}
 
 }
